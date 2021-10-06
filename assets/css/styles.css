@@ -404,29 +404,33 @@ header {
   overflow: hidden;
 }
 
+.project-flex-container .flex-item:hover {
+  transform: scale(1.1);
+}
+
 .project-flex-container .flex-item.project-1 {
-  background: url("../img/work1.jpeg");
+  background: url("../img/bookapp.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project-flex-container .flex-item.project-2 {
-  background: url("../img/work2.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.project-flex-container .flex-item.project-3 {
-  background: url("../img/work3.jpeg");
+  background: url("../img/resturant.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project-flex-container .flex-item.project-4 {
-  background: url("../img/work4.jpeg");
+  background: url("../img/booklanding.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-flex-container .flex-item.project-3 {
+  background: url("../img/hulu.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -448,6 +452,16 @@ header {
 
 .project-flex-container .flex-item .project-info {
   display: none;
+}
+
+.project-flex-container .flex-item.youtube {
+  background: none;
+  width: 450px;
+  height: 300px;
+}
+
+.project-flex-container .flex-item.youtube iframe {
+  border-radius: 0.5rem;
 }
 
 /* ========= SERVICES ========== */
